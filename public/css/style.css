@@ -1,0 +1,160 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color:#F2F2F2;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 307px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+/* header */
+.header {
+    background: linear-gradient(to right, #0a6795 0%, #00b99c 100%);
+}
+
+.cobit-logo {
+    width:70px;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.learning-contents {
+    font-weight: bold;
+    opacity: 0.9;
+    color: white;
+    font-size: 2rem;
+    margin-bottom:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logout {
+    color:white;
+    opacity: 0.85;
+    font-weight: bold;
+}
+
+.logout:hover {
+    text-decoration: none;
+    color:white;
+    opacity: 1;
+}
+/* endheader */
+
+/* login form */
+.login-label {
+    color:black;
+    opacity: 0.8;
+}
+
+.login-btn {
+    /* background: linear-gradient(to right, #0a6795 0%, #00b99c 100%)!important; */
+    background-color: #00b99c;
+    border:none;
+    color: white;
+    transition: opacity 0.3s;
+    font-weight: 600;
+}
+.login-btn:hover {
+    opacity:0.7;
+    color:white;
+}
+
+/* end login form  */
+
+/* profile list */
+.page-title {
+    font-weight: bold;
+    opacity: 0.7;
+    margin-bottom: 0;
+    margin-top:4rem;
+}
+
+.list-group-item {
+    width: 400px;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.list-image {
+    width: 70px;
+    height:70px;
+}
+
+.list-text p {
+    color:black;
+    opacity: 0.8;
+    margin-bottom: 0;
+    width: 240px;
+    padding-left: 17px;
+}
+
+/* endprofile list */
+
+/* profile table */
+
+.table {
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
+
+.table-bordered , .table-bordered td, .table-bordered tr, .table-bordered th{
+    border: 2px solid #f2f2f2;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+/* 
+.back-container i {
+    color: #00b99c;
+} */
+
+.back-container img {
+    width:40px;
+}
+
+.back-container p {
+    color: black;
+    opacity: 0.75;
+    font-size:15px;
+    margin-bottom: 0;
+    font-weight: 500;
+
+}
+
+.back-container:hover {
+    opacity: 0.7;
+}
+
+.back-container a:hover {
+    text-decoration: none;
+}
+
+.fa-arrow-circle-left {
+    font-size: 2.5rem;
+}
+
+/* endprofile table */
+
+/* footer */
+.footer-container {
+    background:linear-gradient(0deg,#272948 0%, #272948 70%, #F2F2F2 70%, #F2F2F2 100%) ;
+    margin-top:3rem;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.profile-footer-img {
+    width: 140px;
+    margin: 0 20px 0 auto!important;
+}
+/* endfooter */
